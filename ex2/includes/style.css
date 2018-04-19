@@ -1,0 +1,112 @@
+* { 
+	padding:0;
+	margin:0;
+}
+
+a {text-decoration:none;}
+header, nav, main, section, footer {display:block;}
+.bg {background-color:#f6f9f9;}
+.txt_center {text-align:center;}
+.text_middle img {vertical-align:middle;}
+
+.banner a:visited, .banner a:hover {color:#ffffff;}
+.logo, .logo a:visited,.logo a:hover {color:#2d3950;}
+
+
+header {
+	padding-top:10px;
+	padding-bottom:10px;
+	color:#264951;
+}
+
+ul.styled {
+    font-size: 15px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+.styled li {
+    display: inline-block;
+    padding: 0 15px;
+    left: 515px;
+    font-family: "Arial", serif;
+    font-weight: bold;
+    line-height: 1;
+    text-align: left;
+}
+
+.logo {
+	font-size:20px;
+	padding: 0 20px;
+	font-family:Impact;	
+	background-image: url(../images/levari.png) no-repeat left center;
+	width:197px;
+	text-align:right;
+	display:inline-block;
+}
+
+#menu {
+	font-family:Calibri;
+	font-size:25px;
+	padding-left:40px;
+	display:inline-block;
+}
+#menu a, #menu a:visited {color:#264951;}
+#menu a:hover {color:#15a4fa;}
+.banner {
+	display: block;
+	background: url(../images/bgcover.jpg) no-repeat;
+	width: 1600px;
+	height:800px;
+	font-family:Cambria;
+	color:#ffffff;
+}
+.banner h1 {
+	padding-top:280px;
+	font-size:60px;
+	margin-bottom:30px;
+	border-bottom:#15a4fa solid 2px;
+	display:inline-block;
+}
+.banner h4:nth-child(4) {padding-bottom:30px;}
+.banner p {padding-bottom:30px;}
+.banner a {
+	border:#15a4fa solid 1px;
+	padding:5px;
+	color:#ffffff;
+}
+.banner a:hover {background-color:#15a4fa;}
+.about {
+	font-family:"Arial", serif;
+	padding-top:30px;
+	padding-bottom:50px;
+}
+.about h3 {
+	font-size:25px;
+	font-weight:normal;
+	padding-bottom:10px;
+}
+.about p {
+	font-size:15px;
+}
+.skills {
+	padding-top:30px;
+	padding-bottom:40px;
+}
+.skills h2 { 
+	font-weight:normal;
+	padding-bottom:30px;
+}
+.skills li{
+	padding-bottom:10px;
+	list-style-type: none;
+}
+
+.skills img {vertical-align:middle;}
+footer {
+	padding-top:15px;
+	padding-bottom:10px;
+}
+footer h6 {display:inline-block;}
+footer img {vertical-align:middle;}
