@@ -1,0 +1,24 @@
+* { 
+	padding:0;
+	margin:0;
+}
+
+header, nav, main, section, footer {display:block;}
+
+a {text-decoration:none;}
+
+#wrapper {
+    margin: 0px auto;
+    width: 1000px;
+    height: 1000px;
+    background-color: #000000;
+}
+
+.clear {
+    clear: both;
+}
+
+
+header {
+    border: 1px solid black;
+}
