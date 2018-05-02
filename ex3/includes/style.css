@@ -18,7 +18,61 @@ a {text-decoration:none;}
     clear: both;
 }
 
-
+/*-------------------------Layout1-------------------------*/
 header {
     border: 1px solid black;
+    width: 1000px;
+    height: 183px;
 }
+nav {
+    width: 727px;
+    height: 57px;
+    background-color: #b94a48;
+    float: right;
+    margin-top: 47px;
+}
+#logo {
+    width: 78px;
+    height: 79px;
+    background-image: url(images/logo.png);
+}
+aside {
+    width: 121px;
+    height: 696px;
+    float: left;
+    background-color: #f2dede;
+}
+section {
+    width: 849px;
+    height: 268px;
+    float: left;
+    background-color: #ee5f5b;
+    margin-left: 30px;
+    position: relative;
+}
+footer {
+    width: 1000px;
+    height: 121px;
+    background-color: #d6d6d6;
+}
+
+/*-------------------------Boxes-------------------------*/
+
+article {
+    position: absolute;
+    background-color: #000000;
+    opacity: 50%;
+}
+
+#box1 {
+    top: 103px;
+    left: 415px;
+    width: 126px;
+    height: 94px;
+}
+
+
+
+
+
+
