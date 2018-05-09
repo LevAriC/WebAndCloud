@@ -1,78 +1,193 @@
-* { 
+*{ 
 	padding:0;
 	margin:0;
 }
 
-header, nav, main, section, footer {display:block;}
+/*-------------------------General-------------------------*/
 
-a {text-decoration:none;}
+header, nav, main, section, aside, footer{ display:block; }
+a{ text-decoration:none; }
+li.selectedLi{  background-color: #664a2e; }
+.clear{ clear: both; }
 
-#wrapper {
+nav li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#wrapper{
     margin: 0px auto;
     width: 1000px;
-    height: 1000px;
-    background-color: #000000;
+    background-color: white;
 }
-
-.clear {
-    clear: both;
+.logo{
+    width: 78px;
+    height: 78px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+}
+article{
+    position: relative;
+    background-color: #4c3723;
+    opacity: 0.75;
 }
 
 /*-------------------------Layout1-------------------------*/
-header {
-    border: 1px solid black;
+
+#Layout1 header{
     width: 1000px;
     height: 183px;
 }
-nav {
+#Layout1 nav{
     width: 727px;
     height: 57px;
-    background-color: #b94a48;
+    margin-top: 48px;
+    background-color: #cc945d;
     float: right;
-    margin-top: 47px;
 }
-#logo {
-    width: 78px;
-    height: 79px;
-    background-image: url(images/logo.png);
+#Layout1 nav li{
+    width: 241px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 57px;  
+    float: left;
+    list-style-type: none;
+    text-align: center;
+    font-family: Arial;
+    font-weight: normal;
 }
-aside {
+#Layout1 main{
+    width: 849px;
+    height: 428px;
+    float: right;
+    background-color: #ffffff;
+}
+#Layout1 section{
+    width: 849px;
+    height: 268px;
+    float: right;
+    background-color: #ffba75;
+}
+#Layout1 aside{
     width: 121px;
     height: 696px;
     float: left;
-    background-color: #f2dede;
+    background-color: #ffffc7;
 }
-section {
-    width: 849px;
-    height: 268px;
-    float: left;
-    background-color: #ee5f5b;
-    margin-left: 30px;
-    position: relative;
-}
-footer {
+#Layout1 footer{
     width: 1000px;
     height: 121px;
-    background-color: #d6d6d6;
+    background-color: #ffd4a8;
+}
+#Layout1 nav li{
+    width: 241px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 57px;
+    list-style-type: none;
+    text-align: center;
+    font-family: Arial;
+    float: left;
+    font-weight: normal;
+}
+#Layout1 a{
+    top: 11px;
+    left: 95px; 
 }
 
-/*-------------------------Boxes-------------------------*/
+/*----------Boxes----------*/
 
-article {
-    position: absolute;
-    background-color: #000000;
-    opacity: 50%;
-}
-
-#box1 {
-    top: 103px;
-    left: 415px;
+#boxTopLayout1{
     width: 126px;
     height: 94px;
+    top: 87px;
+    left: 361px;
+}
+#boxBottomLayout1{
+    width: 692px;
+    height: 175px;
+    top: 224px;
+    left: 78px;
 }
 
+/*-------------------------Layout2-------------------------*/
 
+#Layout2 header{
+    width: 1000px;
+    height: 193px;
+}
+#Layout2 nav{
+     width: 243px;
+     height: 171px;
+     float: left;
+}
+#Layout2 main{
+    width: 757px;
+    height: 935px;
+    float: right;
+    background-color: #ffba75;
+}
+#Layout2 aside{
+    width: 243px;
+    height: 935px;
+    float: left;
+    background-color: #cc945d;
+}
+#Layout2 footer{
+    width: 1000px;
+    height: 50px;
+    bottom: 0px;
+    position: fixed;
+    background-color: #d6d6d6;
+}
+#Layout2 nav li{
+    float: left;
+    list-style-type: none;
+    font-family: Arial;
+    font-weight: normal;
+    width: 243px;
+    height: 57px;
+    font-size: 18px;
+    padding-left: 5px;
+    line-height: 57px;
+}
+#Layout2 .logo{
+    top: 38px;
+    margin: 0px auto;
+}
 
+/*----------Boxes----------*/
+/*------left to right------*/
+/*------box1 --> box5------*/
 
-
-
+#box1{
+    width: 212px;
+    height: 366px;
+    margin-left: 30px;
+    float: left;
+}
+#box2{
+    width: 212px;
+    height: 560px;
+    margin-left: 30px;
+    float: left;
+}
+#box3{
+    width: 212px;
+    height: 223px;
+    margin-left: 30px;
+    float: left;
+}
+#box4{
+    width: 212px;
+    height: 500px;
+    top: 385px;
+    margin-left: 30px;
+}
+#box5{
+    width: 212px;
+    height: 306px;
+    top: 79px;
+    left: 272px;
+}
