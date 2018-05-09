@@ -7,7 +7,8 @@
 
 header, nav, main, section, aside, footer{ display:block; }
 a{ text-decoration:none; }
-li.selectedLi{  background-color: #664a2e; }
+#Layout1 .selectedLi{  background-color: #624c37; }
+#Layout2 .selectedLi{  background-color: #cc945d; }
 .clear{ clear: both; }
 
 nav li a{
@@ -30,7 +31,7 @@ nav li a{
 article{
     position: relative;
     background-color: #4c3723;
-    opacity: 0.75;
+    opacity: 0.6;
 }
 
 /*-------------------------Layout1-------------------------*/
@@ -132,7 +133,7 @@ article{
     width: 243px;
     height: 935px;
     float: left;
-    background-color: #cc945d;
+    background-color: #624c37;
 }
 #Layout2 footer{
     width: 1000px;
