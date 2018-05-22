@@ -9,6 +9,7 @@ header, nav, main, section, aside, footer{ display:block; }
 a{ text-decoration:none; }
 #Layout1 .selectedLi{  background-color: #624c37; }
 #Layout2 .selectedLi{  background-color: #cc945d; }
+#Layout3 .selectedLi{  background-color: #624c37; }
 .clear{ clear: both; }
 
 nav li a{
@@ -17,7 +18,7 @@ nav li a{
 }
 #wrapper{
     margin: 0px auto;
-    width: 1000px;
+    width: 1000px;  
     background-color: white;
 }
 .logo{
@@ -191,4 +192,103 @@ article{
     height: 306px;
     top: 79px;
     left: 272px;
+}
+
+/*-------------------------Layout3-------------------------*/
+
+#Layout3 #wrapper{
+    max-width: 1000px;
+    width: auto;
+}
+
+#Layout3 header{
+    float: left;    
+    width: 500px;
+    height: 500px;
+    background-color: #ffffff;
+}
+
+#Layout3 nav{
+     width: 500px;
+     height: 63px;
+     top: 438px;
+     position: absolute;
+     background-color: #ffba75;
+}
+
+#Layout3 nav li{
+    float: left;
+    position: relative;    
+    list-style-type: none;
+    font-family: Arial;
+    font-weight: normal;
+    width: 161px;
+    font-size: 18px;
+    padding-left: 5px;
+    line-height: 63px;
+}
+
+#Layout3 nav li a{
+    display: block;
+    padding:0px 50px;
+}
+
+#Layout3 nav li.selectedLi{
+    width: 163px;
+}
+
+#Layout3 main{
+    max-width: 1000px;
+    height: 100%;
+    min-height:1000px;    
+    background-color: #ec943b;
+}
+#Layout3 .square{
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+
+#Layout3 .logo{
+    top: 22px;
+    left: 21px;
+}
+
+#plus{
+    margin: 0px auto;   
+    width: 88px;
+    height: 88px;
+    top: 120px;
+    background-image: url(../images/plus.png);
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+}
+
+#flex-container{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#flex-container2{
+    max-width: 1000px;
+    width: 100%;
+    min-height:500px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boxInFlex > div{
+    width: 250px;
+    height: 250px;       
+    background-color: #000000;
+}
+
+.boxInFlex > div:hover {
+    background-color: #ffffff !important;
+    opacity: 1 !important;
 }
