@@ -265,21 +265,63 @@ article{
     position: relative;
 }
 
-#flex-container{
-    width: 500px;
-    height: 500px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+@media (min-width: 851px){
+    #flex-container{
+        height: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    
+    #flex-container2{
+        max-width: 1000px;
+        width: 100%;
+        min-height:500px;
+        min-width:500px;    
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
-#flex-container2{
-    max-width: 1000px;
-    width: 100%;
-    min-height:500px;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
+@media (max-width: 850px) and (min-width: 591px){
+    #flex-container{
+        width: 500px;
+        height: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    
+    #flex-container2{
+        max-width: 1000px;
+        width: 100%;
+        min-height:500px;
+        min-width:500px;    
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 590px){
+    #flex-container{
+        width: 500px;
+        height: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    
+    #flex-container2{
+        max-width: 1000px;
+        width: 100%;
+        min-height:500px;
+        min-width:500px;    
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 .boxInFlex > div{
@@ -288,7 +330,7 @@ article{
     background-color: #000000;
 }
 
-.boxInFlex > div:hover {
+.boxInFlex > div:hover{
     background-color: #ffffff !important;
     opacity: 1 !important;
 }
