@@ -154,7 +154,19 @@ h1{
 header h1{
 	position: relative;
 }
-
+h2{
+	font-size: 2em;
+	text-align: center;
+	font-family: 'Cookie', cursive;
+	color: #31708f;	
+}
+h3{
+	font-size: 1.5em;
+	text-align: center;
+	font-family: 'Cookie', cursive;
+	font-style: italic;
+	color: #58abd4;	
+}
 html{
 	font-size: 18px;
 	height: 100%;
